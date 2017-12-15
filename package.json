@@ -2,6 +2,7 @@
   "name": "node-summary",
   "version": "1.2.0",
   "description": "Summarizes text using a naive summarization algorithm",
+  "engines": { "node": "~8.9.1"},
   "main": "./lib/summary.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require should --reporter spec"
